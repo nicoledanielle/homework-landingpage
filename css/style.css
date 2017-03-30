@@ -1,0 +1,168 @@
+/*
+Project Name: Relaxr Homework Assignment 2
+Client: Relaxr
+Author: Nicole Gilbert
+Developer @GA in LA
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 500px;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-weight:300;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin:0 auto;
+  display:block;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+h3 {
+  font-weight:600;
+  font-size:18px;
+}
+
+blockquote {
+  font-weight:300i;
+  font-size:13px;
+}
+
+footer {
+  height: 150px;
+  background-color: black;
+}
+
+img {
+  height: 20px;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.blue {
+  background-color: #033048;
+  color: white;
+}
+
+.yellow {
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+.yellow-text {
+  color: #f9e42e !important;
+  text-align: center !important;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+#get-it-now {
+  margin-top: 50px;
+}
+
+#text, #quote {
+  width: 400px;
+}
+
+#text {
+  padding: 30px;
+}
+
+#benefits {
+  font-weight:600;
+  font-size: 25px;
+}
+
+.indent-one {
+  padding-left: 75px;
+}
+
+.indent-two {
+  padding-left: 115px;
+}
+
+#quote {
+  margin: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+#description {
+  height: 350px;
+  background-color: white;
+  color: #033048;
+}
+
+#testimonial {
+  height: 200px;
+  background-image: url(../images/testimonial_bg.jpg);
+}
+
+#sign-up {
+  position: relative;
+  height: 100px;
+}
+
+#sign-up button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#copyright {
+  font-size: 9px;
+  font-weight:600;
+}
